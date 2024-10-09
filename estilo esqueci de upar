@@ -1,0 +1,128 @@
+/*---------------- Notification Management Page Styles ----------------*/
+
+.notification-management-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-management-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.notification-management-button-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.notification-management-button-crud .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.notification-management-search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.notification-management-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification-management-list .notification {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #ccc; /* Borda mais escura */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-management-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*---------------- Notification Component Styles ----------------*/
+
+.notification-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #d3d3d3; /* Borda mais escura */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.notification-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.notification-content {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn-purple {
+  background-color: #6a1b9a !important;  /* Usar !important para garantir prioridade */
+  color: white !important;
+  border: none !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-purple:hover {
+  background-color: #5c1492 !important;
+}
+
+/*---------------- Pagination Styles ----------------*/
+
+.pagination-wrapper {
+  margin-top: 20px;
+}
+
+.page-item .page-link {
+  color: #6a1b9a;
+  border: 1px solid #6a1b9a;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.page-item.active .page-link {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+}
+
+.page-item .page-link:hover {
+  background-color: #5c1492;
+  color: white;
+}
